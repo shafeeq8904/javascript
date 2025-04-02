@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    margin: auto;
+}
+
+.item {
+    padding: 10px;
+    margin: 5px;
+    background-color: lightblue;
+    cursor: grab;
+    border: 1px solid #000;
+}
+
+.item.dragging {
+    opacity: 0.5;
+    background-color: gray;
+}
