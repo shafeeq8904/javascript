@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 59.99,
+      "image": "https://blaupunktaudio.in/cdn/shop/products/bh31-bluetooth-wireless-headphone-black-blaupunkt-india-1.png?v=1711006562",
+      "description": "High-quality wireless headphones with noise cancellation.",
+      "category": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": 89.99,
+      "image": "https://m.media-amazon.com/images/I/61ZjlBOp+rL.jpg",
+      "description": "Fitness and notifications on your wrist.",
+      "category": "Accessories"
+    },
+    {
+      "id": 3,
+      "name": "Bluetooth Speaker",
+      "price": 39.99,
+      "image": "https://www.portronics.com/cdn/shop/files/Portronics_Resound_2_portable_Speaker_bluetooth.jpg?v=1736943285",
+      "description": "Portable and powerful sound anywhere you go.",
+      "category": "Electronics"
+    },
+    
+  {
+    "id": 4,
+    "name": "Coffee Maker",
+    "description": "Brews fresh coffee in minutes",
+    "price": 29.99,
+    "image": "https://myborosil.com/cdn/shop/files/BCM55W01_1.jpg",
+    "category": "Home Appliances"
+  },
+  {
+    "id": 5,
+    "name": "Desk Lamp",
+    "description": "LED desk lamp with touch control",
+    "price": 15.49,
+    "image": "https://m.media-amazon.com/images/I/71D2YNJoNNL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Home Decor"
+  },
+  {
+    "id": 6,
+    "name": "Running Shoes",
+    "description": "Comfortable shoes for daily running",
+    "price": 49.95,
+    "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/372f465c319f43ccb55506ced7242362_9366/Ultrarun_5_W_Running_Shoes_Black_IH2636_HM1.jpg",
+    "category": "Footwear"
+  },
+  {
+    "id": 7,
+    "name": "Backpack",
+    "description": "Water-resistant backpack with laptop compartment",
+    "price": 35.00,
+    "image": "https://m.media-amazon.com/images/I/71qpXciYP1L.jpg",
+    "category": "Bags"
+  },
+  {
+    "id": 8,
+    "name": "Smartphone Stand",
+    "description": "Adjustable stand for desk and travel",
+    "price": 12.99,
+    "image": "https://megastro.in/wp-content/uploads/2023/08/MegaStro-MVPmini-Phone-or-Tablet-Stand-Metallic-Grey-1.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 9,
+    "name": "USB-C Charger",
+    "description": "Fast-charging wall adapter for multiple devices",
+    "price": 18.00,
+    "image": "https://m.media-amazon.com/images/I/71cPa3L9RoL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Electronics"
+  },
+  {
+    "id": 10,
+    "name": "Notebook",
+    "description": "Hardcover notebook for notes and journaling",
+    "price": 6.75,
+    "image": "https://m.media-amazon.com/images/I/71GhsI7TeZL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Stationery"
+  }
+  ]
+  
