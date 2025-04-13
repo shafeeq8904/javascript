@@ -1,4 +1,5 @@
-let allProducts = []; // Keep original products for filtering
+let allProducts = [];
+
 
 export async function loadProducts() {
   try {
@@ -46,14 +47,25 @@ function addToCart(product) {
     existing.quantity += 1;
   } else {
     product.quantity = 1;
-    cart.push(product);
+    cart.push({
+        id: product.id,
+        name: product.name,
+        price: product.price,
+        image: product.image,
+        quantity: 1
+    });
   }
   localStorage.setItem('cart', JSON.stringify(cart));
   updateCartCount();
 }
 
-function updateCartCount() {
+export function updateCartCount() {
   const cart = JSON.parse(localStorage.getItem('cart')) || [];
   const count = cart.reduce((sum, item) => sum + item.quantity, 0);
   document.getElementById('cart-count').textContent = count;
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    updateCartCount(); 
+  });
+  
