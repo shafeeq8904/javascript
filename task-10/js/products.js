@@ -16,7 +16,13 @@ export function filterProducts(searchTerm) {
     product.name.toLowerCase().includes(searchTerm) ||
     product.description.toLowerCase().includes(searchTerm)
   );
-  renderProducts(filtered);
+  if (filtered.length === 0) {
+    document.querySelector('.products-container').innerHTML = `
+      <div class="no-products-message"> No products found for "${searchTerm}"</div>
+    `;
+  } else {
+    renderProducts(filtered);
+  }
 }
 
 function renderProducts(products) {

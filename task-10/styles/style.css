@@ -120,6 +120,14 @@ body {
     border-radius: 5px;
   }
 
+  .no-products-message {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+
   @media (max-width: 768px) {
     .products-container {
       grid-template-columns: (2, 1fr);
